@@ -196,7 +196,5 @@ app.use('/admin', admin)
 //Outros
 const PORT = process.env.PORT || 8081
 app.listen(PORT, () => {
-    console.log("URI:", process.env.MONGODB_URI);
-
     console.log("Servidor rodando! ")
 })
